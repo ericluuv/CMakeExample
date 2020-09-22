@@ -62,10 +62,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ericluu/Desktop/CMakeTutorial
+CMAKE_SOURCE_DIR = /Users/ericluu/Desktop/CMakeExample/CMakeExample
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ericluu/Desktop/CMakeTutorial/build
+CMAKE_BINARY_DIR = /Users/ericluu/Desktop/CMakeExample/CMakeExample/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ericluu/Desktop/CMakeTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /Users/ericluu/Desktop/CMakeTutorial/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ericluu/Desktop/CMakeExample/CMakeExample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /Users/ericluu/Desktop/CMakeExample/CMakeExample/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ericluu/Desktop/CMakeTutorial/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ericluu/Desktop/CMakeExample/CMakeExample/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ericluu/Desktop/CMakeTutorial/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ericluu/Desktop/CMakeExample/CMakeExample/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/testing.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/testing.cpp.o: ../src/testing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ericluu/Desktop/CMakeTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/testing.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/testing.cpp.o -c /Users/ericluu/Desktop/CMakeTutorial/src/testing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ericluu/Desktop/CMakeExample/CMakeExample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/testing.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/testing.cpp.o -c /Users/ericluu/Desktop/CMakeExample/CMakeExample/src/testing.cpp
 
 CMakeFiles/main.dir/src/testing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/testing.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ericluu/Desktop/CMakeTutorial/src/testing.cpp > CMakeFiles/main.dir/src/testing.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ericluu/Desktop/CMakeExample/CMakeExample/src/testing.cpp > CMakeFiles/main.dir/src/testing.cpp.i
 
 CMakeFiles/main.dir/src/testing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/testing.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ericluu/Desktop/CMakeTutorial/src/testing.cpp -o CMakeFiles/main.dir/src/testing.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ericluu/Desktop/CMakeExample/CMakeExample/src/testing.cpp -o CMakeFiles/main.dir/src/testing.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -110,15 +110,15 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-../bin/main: CMakeFiles/main.dir/src/main.cpp.o
-../bin/main: CMakeFiles/main.dir/src/testing.cpp.o
-../bin/main: CMakeFiles/main.dir/build.make
-../bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ericluu/Desktop/CMakeTutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/main"
+/Users/ericluu/Desktop/CMakeTutorial/bin/main: CMakeFiles/main.dir/src/main.cpp.o
+/Users/ericluu/Desktop/CMakeTutorial/bin/main: CMakeFiles/main.dir/src/testing.cpp.o
+/Users/ericluu/Desktop/CMakeTutorial/bin/main: CMakeFiles/main.dir/build.make
+/Users/ericluu/Desktop/CMakeTutorial/bin/main: CMakeFiles/main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ericluu/Desktop/CMakeExample/CMakeExample/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /Users/ericluu/Desktop/CMakeTutorial/bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/main.dir/build: ../bin/main
+CMakeFiles/main.dir/build: /Users/ericluu/Desktop/CMakeTutorial/bin/main
 
 .PHONY : CMakeFiles/main.dir/build
 
@@ -127,6 +127,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /Users/ericluu/Desktop/CMakeTutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ericluu/Desktop/CMakeTutorial /Users/ericluu/Desktop/CMakeTutorial /Users/ericluu/Desktop/CMakeTutorial/build /Users/ericluu/Desktop/CMakeTutorial/build /Users/ericluu/Desktop/CMakeTutorial/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ericluu/Desktop/CMakeExample/CMakeExample/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ericluu/Desktop/CMakeExample/CMakeExample /Users/ericluu/Desktop/CMakeExample/CMakeExample /Users/ericluu/Desktop/CMakeExample/CMakeExample/build /Users/ericluu/Desktop/CMakeExample/CMakeExample/build /Users/ericluu/Desktop/CMakeExample/CMakeExample/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

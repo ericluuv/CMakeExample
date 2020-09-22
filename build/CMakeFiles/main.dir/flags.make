@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/ericluu/Desktop/CMakeTutorial/include
+CXX_INCLUDES = -I/Users/ericluu/Desktop/CMakeExample/CMakeExample/include
 
 CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIE -std=gnu++11
 
